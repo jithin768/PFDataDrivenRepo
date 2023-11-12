@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tests.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.416 s <<< FAILURE! - in tests.LoginTest
+testLogin(tests.LoginTest)  Time elapsed: 0.074 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HEZEKIAH', ip: '192.168.2.126'
+	at tests.LoginTest.testLogin(LoginTest.java:31)
+Caused by: org.openqa.selenium.WebDriverException: 
+Driver server process died prematurely.
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: FirefoxDriver
+	at tests.LoginTest.testLogin(LoginTest.java:31)
+
